@@ -35,7 +35,8 @@
 
 param(
     [string]$DnsServer,
-    [string]$OutputPath = (Get-Location).Path,
+#    [string]$OutputPath = (Get-Location).Path,
+	[string]$OutputPath = "C:\RTSupport\Logs\DNS-Testing-Script",
     [int]$MaxThreads = 10,
     [switch]$Help
 )
